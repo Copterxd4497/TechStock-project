@@ -2,6 +2,7 @@ require("dotenv").config({ path: "./config.env" }); // Load environment variable
 const app = require("./app");
 
 const port = process.env.PORT || 8000;
+console.log("Hello world");
 
 app
   .listen(port, () => {
