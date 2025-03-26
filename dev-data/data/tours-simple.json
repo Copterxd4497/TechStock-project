@@ -1,163 +1,590 @@
 [
   {
-    "id": 0,
-    "name": "The Forest Hiker",
-    "duration": 5,
-    "maxGroupSize": 25,
-    "difficulty": "easy",
-    "ratingsAverage": 4.7,
-    "ratingsQuantity": 37,
-    "price": 397,
-    "summary": "Breathtaking hike through the Canadian Banff National Park",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "imageCover": "tour-1-cover.jpg",
-    "images": [
-      "tour-1-1.jpg",
-      "tour-1-2.jpg",
-      "tour-1-3.jpg"
-    ],
-    "startDates": [
-      "2021-04-25,10:00",
-      "2021-07-20,10:00",
-      "2021-10-05,10:00"
-    ]
+    "initials": "TH",
+    "full_name": "TEWO HOIJ",
+    "price": 12.34,
+    "Available_Stock": 2000.0
   },
   {
-    "id": 1,
-    "name": "The Sea Explorer",
-    "duration": 7,
-    "maxGroupSize": 15,
-    "difficulty": "medium",
-    "ratingsAverage": 4.8,
-    "ratingsQuantity": 23,
-    "price": 497,
-    "summary": "Exploring the jaw-dropping US east coast by foot and by boat",
-    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "imageCover": "tour-2-cover.jpg",
-    "images": [
-      "tour-2-1.jpg",
-      "tour-2-2.jpg",
-      "tour-2-3.jpg"
-    ],
-    "startDates": [
-      "2021-06-19,10:00",
-      "2021-07-20,10:00",
-      "2021-08-18,10:00"
-    ]
+    "initials": "AB",
+    "full_name": "ANDRE BLAKE",
+    "price": 24.56,
+    "Available_Stock": 1500.0
   },
   {
-    "id": 2,
-    "name": "The Snow Adventurer",
-    "duration": 4,
-    "maxGroupSize": 10,
-    "difficulty": "difficult",
-    "ratingsAverage": 4.5,
-    "ratingsQuantity": 13,
-    "price": 997,
-    "summary": "Exciting adventure in the snow with snowboarding and skiing",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-    "imageCover": "tour-3-cover.jpg",
-    "images": [
-      "tour-3-1.jpg",
-      "tour-3-2.jpg",
-      "tour-3-3.jpg"
-    ],
-    "startDates": [
-      "2022-01-05,10:00",
-      "2022-02-12,10:00",
-      "2023-01-06,10:00"
-    ]
+    "initials": "CD",
+    "full_name": "CHRIS DOE",
+    "price": 45.67,
+    "Available_Stock": 1200.0
   },
   {
-    "id": 3,
-    "name": "The City Wanderer",
-    "duration": 9,
-    "maxGroupSize": 20,
-    "difficulty": "easy",
-    "ratingsAverage": 4.6,
-    "ratingsQuantity": 54,
-    "price": 1197,
-    "summary": "Living the life of Wanderlust in the US' most beatiful cities",
-    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet.\nConsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!",
-    "imageCover": "tour-4-cover.jpg",
-    "images": [
-      "tour-4-1.jpg",
-      "tour-4-2.jpg",
-      "tour-4-3.jpg"
-    ],
-    "startDates": [
-      "2021-03-11,10:00",
-      "2021-05-02,10:00",
-      "2021-06-09,10:00"
-    ]
+    "initials": "EF",
+    "full_name": "EDWARD FRANK",
+    "price": 67.89,
+    "Available_Stock": 3000.0
   },
   {
-    "id": 4,
-    "name": "The Park Camper",
-    "duration": 10,
-    "maxGroupSize": 15,
-    "difficulty": "medium",
-    "ratingsAverage": 4.9,
-    "ratingsQuantity": 19,
-    "price": 1497,
-    "summary": "Breathing in Nature in America's most spectacular National Parks",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
-    "imageCover": "tour-5-cover.jpg",
-    "images": [
-      "tour-5-1.jpg",
-      "tour-5-2.jpg",
-      "tour-5-3.jpg"
-    ],
-    "startDates": [
-      "2021-08-05,10:00",
-      "2022-03-20,10:00",
-      "2022-08-12,10:00"
-    ]
+    "initials": "GH",
+    "full_name": "GEORGE HILL",
+    "price": 18.25,
+    "Available_Stock": 1800.0
   },
   {
-    "id": 5,
-    "name": "The Sports Lover",
-    "duration": 14,
-    "maxGroupSize": 8,
-    "difficulty": "difficult",
-    "ratingsAverage": 4.7,
-    "ratingsQuantity": 28,
-    "price": 2997,
-    "summary": "Surfing, skating, parajumping, rock climbing and more, all in one tour",
-    "description": "Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nVoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur!",
-    "imageCover": "tour-6-cover.jpg",
-    "images": [
-      "tour-6-1.jpg",
-      "tour-6-2.jpg",
-      "tour-6-3.jpg"
-    ],
-    "startDates": [
-      "2021-07-19,10:00",
-      "2021-09-06,10:00",
-      "2022-03-18,10:00"
-    ]
+    "initials": "IJ",
+    "full_name": "ISABEL JONES",
+    "price": 33.45,
+    "Available_Stock": 1600.0
   },
   {
-    "id": 6,
-    "name": "The Wine Taster",
-    "duration": 5,
-    "maxGroupSize": 8,
-    "difficulty": "easy",
-    "ratingsAverage": 4.5,
-    "ratingsQuantity": 35,
-    "price": 1997,
-    "summary": "Exquisite wines, scenic views, exclusive barrel tastings,  and much more",
-    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "imageCover": "tour-7-cover.jpg",
-    "images": [
-      "tour-7-1.jpg",
-      "tour-7-2.jpg",
-      "tour-7-3.jpg"
-    ],
-    "startDates": [
-      "2021-02-12,10:00",
-      "2021-04-14,10:00",
-      "2021-09-01,10:00"
-    ]
+    "initials": "KL",
+    "full_name": "KEVIN LEE",
+    "price": 72.3,
+    "Available_Stock": 2200.0
+  },
+  {
+    "initials": "MN",
+    "full_name": "MARY NORTON",
+    "price": 40.12,
+    "Available_Stock": 1000.0
+  },
+  {
+    "initials": "OP",
+    "full_name": "OSCAR PRICE",
+    "price": 15.76,
+    "Available_Stock": 2400.0
+  },
+  {
+    "initials": "QR",
+    "full_name": "QUINN RAY",
+    "price": 50.38,
+    "Available_Stock": 1200.0
+  },
+  {
+    "initials": "ST",
+    "full_name": "SARA TAYLOR",
+    "price": 29.87,
+    "Available_Stock": 2800.0
+  },
+  {
+    "initials": "UV",
+    "full_name": "UMA VANCE",
+    "price": 88.45,
+    "Available_Stock": 900.0
+  },
+  {
+    "initials": "WX",
+    "full_name": "WILL XAVIER",
+    "price": 37.12,
+    "Available_Stock": 3500.0
+  },
+  {
+    "initials": "YZ",
+    "full_name": "YARA ZANE",
+    "price": 62.78,
+    "Available_Stock": 1700.0
+  },
+  {
+    "initials": "BA",
+    "full_name": "BETH ADAMS",
+    "price": 19.34,
+    "Available_Stock": 2600.0
+  },
+  {
+    "initials": "DC",
+    "full_name": "DANA COLE",
+    "price": 55.67,
+    "Available_Stock": 1300.0
+  },
+  {
+    "initials": "FE",
+    "full_name": "FRED EVANS",
+    "price": 41.23,
+    "Available_Stock": 2100.0
+  },
+  {
+    "initials": "HG",
+    "full_name": "HANA GRAY",
+    "price": 73.89,
+    "Available_Stock": 1900.0
+  },
+  {
+    "initials": "JI",
+    "full_name": "JACK IRWIN",
+    "price": 26.45,
+    "Available_Stock": 3200.0
+  },
+  {
+    "initials": "LK",
+    "full_name": "LIA KANE",
+    "price": 94.12,
+    "Available_Stock": 1400.0
+  },
+  {
+    "initials": "NM",
+    "full_name": "NATE MILES",
+    "price": 31.78,
+    "Available_Stock": 2700.0
+  },
+  {
+    "initials": "PO",
+    "full_name": "PAUL OWEN",
+    "price": 68.34,
+    "Available_Stock": 1100.0
+  },
+  {
+    "initials": "RQ",
+    "full_name": "ROSE QUINN",
+    "price": 14.56,
+    "Available_Stock": 2900.0
+  },
+  {
+    "initials": "TS",
+    "full_name": "TOM SHAW",
+    "price": 49.87,
+    "Available_Stock": 2300.0
+  },
+  {
+    "initials": "VU",
+    "full_name": "VIV UPTON",
+    "price": 82.45,
+    "Available_Stock": 1600.0
+  },
+  {
+    "initials": "XW",
+    "full_name": "XENA WARD",
+    "price": 35.12,
+    "Available_Stock": 3400.0
+  },
+  {
+    "initials": "ZY",
+    "full_name": "ZOE YOUNG",
+    "price": 57.89,
+    "Available_Stock": 1800.0
+  },
+  {
+    "initials": "AD",
+    "full_name": "ALEX DEAN",
+    "price": 22.34,
+    "Available_Stock": 2500.0
+  },
+  {
+    "initials": "BF",
+    "full_name": "BRIAN FORD",
+    "price": 66.78,
+    "Available_Stock": 1200.0
+  },
+  {
+    "initials": "CH",
+    "full_name": "CARA HOLT",
+    "price": 39.45,
+    "Available_Stock": 3100.0
+  },
+  {
+    "initials": "DJ",
+    "full_name": "DREW JAY",
+    "price": 71.23,
+    "Available_Stock": 2000.0
+  },
+  {
+    "initials": "EL",
+    "full_name": "ELLE LANE",
+    "price": 18.67,
+    "Available_Stock": 2800.0
+  },
+  {
+    "initials": "FM",
+    "full_name": "FAITH MOORE",
+    "price": 53.12,
+    "Available_Stock": 1500.0
+  },
+  {
+    "initials": "GN",
+    "full_name": "GABE NASH",
+    "price": 87.89,
+    "Available_Stock": 3300.0
+  },
+  {
+    "initials": "HO",
+    "full_name": "HOPE OWEN",
+    "price": 25.34,
+    "Available_Stock": 1700.0
+  },
+  {
+    "initials": "IP",
+    "full_name": "IAN PERRY",
+    "price": 60.78,
+    "Available_Stock": 2400.0
+  },
+  {
+    "initials": "JQ",
+    "full_name": "JUNE QUAY",
+    "price": 32.45,
+    "Available_Stock": 2900.0
+  },
+  {
+    "initials": "KR",
+    "full_name": "KYLE REED",
+    "price": 78.12,
+    "Available_Stock": 1300.0
+  },
+  {
+    "initials": "LS",
+    "full_name": "LILY STONE",
+    "price": 44.67,
+    "Available_Stock": 2600.0
+  },
+  {
+    "initials": "MT",
+    "full_name": "MATT TROY",
+    "price": 91.23,
+    "Available_Stock": 1800.0
+  },
+  {
+    "initials": "NU",
+    "full_name": "NORA UDELL",
+    "price": 16.89,
+    "Available_Stock": 3200.0
+  },
+  {
+    "initials": "OV",
+    "full_name": "OLIVE VOSS",
+    "price": 58.34,
+    "Available_Stock": 1400.0
+  },
+  {
+    "initials": "PW",
+    "full_name": "PETE WADE",
+    "price": 37.78,
+    "Available_Stock": 2700.0
+  },
+  {
+    "initials": "QX",
+    "full_name": "QUADE XENO",
+    "price": 69.45,
+    "Available_Stock": 1100.0
+  },
+  {
+    "initials": "RY",
+    "full_name": "RUTH YALE",
+    "price": 23.12,
+    "Available_Stock": 3000.0
+  },
+  {
+    "initials": "SZ",
+    "full_name": "SAM ZORN",
+    "price": 85.67,
+    "Available_Stock": 1900.0
+  },
+  {
+    "initials": "TA",
+    "full_name": "TINA ARLO",
+    "price": 47.89,
+    "Available_Stock": 2500.0
+  },
+  {
+    "initials": "UB",
+    "full_name": "URIS BELL",
+    "price": 13.34,
+    "Available_Stock": 2800.0
+  },
+  {
+    "initials": "VC",
+    "full_name": "VICK CARY",
+    "price": 62.78,
+    "Available_Stock": 1600.0
+  },
+  {
+    "initials": "WD",
+    "full_name": "WALT DANE",
+    "price": 29.45,
+    "Available_Stock": 3400.0
+  },
+  {
+    "initials": "XE",
+    "full_name": "XAVIER ELM",
+    "price": 74.12,
+    "Available_Stock": 1200.0
+  },
+  {
+    "initials": "YF",
+    "full_name": "YURI FAYE",
+    "price": 51.67,
+    "Available_Stock": 2900.0
+  },
+  {
+    "initials": "ZG",
+    "full_name": "ZARA GALE",
+    "price": 36.23,
+    "Available_Stock": 1700.0
+  },
+  {
+    "initials": "AH",
+    "full_name": "AMY HART",
+    "price": 93.89,
+    "Available_Stock": 2300.0
+  },
+  {
+    "initials": "BI",
+    "full_name": "BLAKE IVES",
+    "price": 19.34,
+    "Available_Stock": 3100.0
+  },
+  {
+    "initials": "CJ",
+    "full_name": "CODY JENK",
+    "price": 67.78,
+    "Available_Stock": 1400.0
+  },
+  {
+    "initials": "DK",
+    "full_name": "DEAN KIRK",
+    "price": 42.45,
+    "Available_Stock": 2600.0
+  },
+  {
+    "initials": "EL",
+    "full_name": "ERIN LLOYD",
+    "price": 88.12,
+    "Available_Stock": 1800.0
+  },
+  {
+    "initials": "FM",
+    "full_name": "FINN MOSS",
+    "price": 25.67,
+    "Available_Stock": 3200.0
+  },
+  {
+    "initials": "GN",
+    "full_name": "GINA NEAL",
+    "price": 59.23,
+    "Available_Stock": 1500.0
+  },
+  {
+    "initials": "HO",
+    "full_name": "HUGH ORR",
+    "price": 71.89,
+    "Available_Stock": 2700.0
+  },
+  {
+    "initials": "IP",
+    "full_name": "IDA PACE",
+    "price": 33.34,
+    "Available_Stock": 2000.0
+  },
+  {
+    "initials": "JQ",
+    "full_name": "JOE QUILL",
+    "price": 96.78,
+    "Available_Stock": 1300.0
+  },
+  {
+    "initials": "KR",
+    "full_name": "KARA ROSS",
+    "price": 48.45,
+    "Available_Stock": 2900.0
+  },
+  {
+    "initials": "LS",
+    "full_name": "LEAH SETH",
+    "price": 15.12,
+    "Available_Stock": 3400.0
+  },
+  {
+    "initials": "MT",
+    "full_name": "MIKE TEAL",
+    "price": 63.67,
+    "Available_Stock": 1600.0
+  },
+  {
+    "initials": "NU",
+    "full_name": "NELL ULM",
+    "price": 27.89,
+    "Available_Stock": 3100.0
+  },
+  {
+    "initials": "OV",
+    "full_name": "OTTO VAIL",
+    "price": 84.34,
+    "Available_Stock": 1900.0
+  },
+  {
+    "initials": "PW",
+    "full_name": "PAIGE WOLF",
+    "price": 39.78,
+    "Available_Stock": 2500.0
+  },
+  {
+    "initials": "QX",
+    "full_name": "QUIN XRAY",
+    "price": 56.45,
+    "Available_Stock": 1200.0
+  },
+  {
+    "initials": "RY",
+    "full_name": "REX YOUNG",
+    "price": 92.12,
+    "Available_Stock": 2800.0
+  },
+  {
+    "initials": "SZ",
+    "full_name": "SUE ZANE",
+    "price": 31.67,
+    "Available_Stock": 1700.0
+  },
+  {
+    "initials": "TA",
+    "full_name": "TAD AMES",
+    "price": 77.89,
+    "Available_Stock": 3300.0
+  },
+  {
+    "initials": "UB",
+    "full_name": "UMA BOND",
+    "price": 43.34,
+    "Available_Stock": 1400.0
+  },
+  {
+    "initials": "VC",
+    "full_name": "VINCE COE",
+    "price": 68.78,
+    "Available_Stock": 2600.0
+  },
+  {
+    "initials": "WD",
+    "full_name": "WREN DALE",
+    "price": 24.45,
+    "Available_Stock": 3000.0
+  },
+  {
+    "initials": "XE",
+    "full_name": "XENA EARL",
+    "price": 81.12,
+    "Available_Stock": 1800.0
+  },
+  {
+    "initials": "YF",
+    "full_name": "YALE FERN",
+    "price": 35.67,
+    "Available_Stock": 3200.0
+  },
+  {
+    "initials": "ZG",
+    "full_name": "ZION GRAY",
+    "price": 59.89,
+    "Available_Stock": 1500.0
+  },
+  {
+    "initials": "AH",
+    "full_name": "AVA HILL",
+    "price": 97.34,
+    "Available_Stock": 2700.0
+  },
+  {
+    "initials": "BI",
+    "full_name": "BEN IVAN",
+    "price": 46.78,
+    "Available_Stock": 1300.0
+  },
+  {
+    "initials": "CJ",
+    "full_name": "CORA JOY",
+    "price": 73.45,
+    "Available_Stock": 2900.0
+  },
+  {
+    "initials": "DK",
+    "full_name": "DALE KENT",
+    "price": 28.12,
+    "Available_Stock": 2000.0
+  },
+  {
+    "initials": "EL",
+    "full_name": "ELSA LARK",
+    "price": 64.67,
+    "Available_Stock": 3400.0
+  },
+  {
+    "initials": "FM",
+    "full_name": "FAYE MANN",
+    "price": 19.89,
+    "Available_Stock": 1600.0
+  },
+  {
+    "initials": "GN",
+    "full_name": "GLEN NORA",
+    "price": 85.34,
+    "Available_Stock": 3100.0
+  },
+  {
+    "initials": "HO",
+    "full_name": "HANK OAK",
+    "price": 52.78,
+    "Available_Stock": 1900.0
+  },
+  {
+    "initials": "IP",
+    "full_name": "IRIS PINE",
+    "price": 37.45,
+    "Available_Stock": 2500.0
+  },
+  {
+    "initials": "JQ",
+    "full_name": "JADE QUIN",
+    "price": 91.12,
+    "Available_Stock": 1200.0
+  },
+  {
+    "initials": "KR",
+    "full_name": "KAI RUSH",
+    "price": 44.67,
+    "Available_Stock": 2800.0
+  },
+  {
+    "initials": "LS",
+    "full_name": "LANE SLY",
+    "price": 76.89,
+    "Available_Stock": 1700.0
+  },
+  {
+    "initials": "MT",
+    "full_name": "MIA TATE",
+    "price": 23.34,
+    "Available_Stock": 3300.0
+  },
+  {
+    "initials": "NU",
+    "full_name": "NOAH UBER",
+    "price": 68.78,
+    "Available_Stock": 1400.0
+  },
+  {
+    "initials": "OV",
+    "full_name": "OPAL VINE",
+    "price": 31.45,
+    "Available_Stock": 2600.0
+  },
+  {
+    "initials": "PW",
+    "full_name": "PIP WREN",
+    "price": 87.12,
+    "Available_Stock": 1800.0
+  },
+  {
+    "initials": "QX",
+    "full_name": "QUAY XENO",
+    "price": 55.67,
+    "Available_Stock": 3000.0
+  },
+  {
+    "initials": "RY",
+    "full_name": "RUBY YARD",
+    "price": 49.89,
+    "Available_Stock": 1500.0
+  },
+  {
+    "initials": "SZ",
+    "full_name": "SETH ZION",
+    "price": 72.34,
+    "Available_Stock": 2700.0
   }
 ]
