@@ -3,7 +3,7 @@ const app = express();
 const timemiddleware = require("./middleware/timeMiddleware");
 
 const tourRoute = require("./routers/tourRoutes");
-const casRoute = require("./routers/casRoute");
+const casRoute = require("./routers/casRoutes");
 
 //Middleware
 app.use(express.json());
