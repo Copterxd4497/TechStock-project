@@ -10,11 +10,12 @@ router
   .route("/")
   .get(tourController.getAllTours)
   .post(tourController.createTours)
-  .delete(tourController.deleteTour);
+  .delete(tourController.deleteTour_usingQuery);
 
 router
   .route("/:id")
   .get(tourController.getTours)
-  .patch(tourController.updataTour);
+  .patch(tourController.updataTour)
+  .delete(tourController.deleteTour);
 
 module.exports = router;

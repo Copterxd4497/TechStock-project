@@ -86,12 +86,30 @@ exports.updataTour = async (req, res) => {
   }
 };
 
-exports.deleteTour = async (req, res) => {
+exports.deleteTour_usingQuery = async (req, res) => {
   try {
     const thatone = Tour.find(req.query);
     const special_param = thatone._id;
 
     const deleteTour = await Tour.findOneAndDelete(special_param);
+
+    res.status(204).json({
+      status: "sucess",
+      data: {
+        tour: deleteTour,
+      },
+    });
+  } catch (err) {
+    res.status(400).json({
+      status: "fail",
+      message: err.message,
+    });
+  }
+};
+
+exports.deleteTour = async (req, res) => {
+  try {
+    const deleteTour = await Tour.findByIdAndDelete(req.params.id);
 
     res.status(204).json({
       status: "sucess",
