@@ -3,6 +3,7 @@ const app = express();
 const timemiddleware = require("./middleware/timeMiddleware");
 
 const tourRoute = require("./routers/tourRoutes");
+const casRoute = require("./routers/casRoute");
 
 //Middleware
 app.use(express.json());
@@ -19,5 +20,6 @@ if (process.env.NODE_ENV === "development") {
 }
 //routers
 app.use("/api/v1/tours", tourRoute);
+app.use("/api/v1/CAS", casRoute);
 
 module.exports = app;

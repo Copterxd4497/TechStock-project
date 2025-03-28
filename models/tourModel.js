@@ -13,6 +13,14 @@ const tourSchema = new mongoose.Schema({
     require: [true, "A board much have full_name"],
     trim: [true],
   },
+  highlight: {
+    type: String,
+    enum: {
+      values: ["Great", "Good", "Mid", "Bullshit"],
+      message:
+        "there is only 4 choices you could pick, Great, Good, Mid, Bullshit",
+    },
+  },
   country: {
     type: String,
     require: [true, "A Stock must have Registered Country"],
