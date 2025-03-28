@@ -9,12 +9,12 @@ const tourController = require("../Controller/TourController");
 router
   .route("/")
   .get(tourController.getAllTours)
-  .post(tourController.createTours);
+  .post(tourController.createTours)
+  .delete(tourController.deleteTour);
 
 router
   .route("/:id")
   .get(tourController.getTours)
-  .patch(tourController.updataTour)
-  .delete(tourController.deleteTour);
+  .patch(tourController.updataTour);
 
 module.exports = router;

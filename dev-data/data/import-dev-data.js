@@ -8,7 +8,7 @@ const Tour = require("./../../models/tourModel");
 //we use process.env.(Blank) to access element in config.env
 const DB = process.env.DATABASE.replace(
   "<db_password>",
-  process.env.DATABASE_PASSWORD
+  process.env.DATABASEPASSWORD
 );
 
 mongoose
