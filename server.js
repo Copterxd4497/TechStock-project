@@ -15,7 +15,7 @@ mongoose
   .then(() => console.log("DB connect successfully"))
   .catch((err) => console.err("Db connection error", err));
 
-const port = 3000;
+const port = 5000;
 console.log("Hello world");
 
 app
