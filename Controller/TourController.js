@@ -67,37 +67,36 @@ exports.createTours = async (req, res) => {
 
 exports.updateTour = async (req, res) => {
   try {
-    const UpdateTour = Tour.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-      runValidators: true,
-    });
+    // Remove _id from the request body to prevent modification of the immutable field
+    const { _id, ...updateData } = req.body;
+
+    // Find and update the tour
+    const updatedTour = await Tour.findByIdAndUpdate(
+      req.params.id,
+      updateData,
+      {
+        new: true,
+        runValidators: true,
+      }
+    );
+
+    if (!updatedTour) {
+      return res.status(404).json({
+        status: "fail",
+        message: "Tour not found",
+      });
+    }
+
+    // Adjust available stock if amountOFmoney is provided
+    if (req.body.amountOFmoney) {
+      updatedTour.Available_Stock -= req.body.amountOFmoney;
+      await updatedTour.save();
+    }
 
     res.status(200).json({
-      status: "sucess",
+      status: "success",
       data: {
-        UpdateTour: UpdateTour,
-      },
-    });
-  } catch (err) {
-    res.status(400).json({
-      status: "fail",
-      message: err.message,
-    });
-  }
-};
-
-exports.updateTour_stocks = async (req, res) => {
-  try {
-    const tour = await Tour.findById(req.params.id);
-    const updateBody = req.body.amountOFmoney;
-
-    tour.Available_Stock = tour.Available_Stock - updateBody;
-    await tour.save();
-
-    res.status(200).json({
-      status: "sucess",
-      data: {
-        tour: tour,
+        tour: updatedTour,
       },
     });
   } catch (err) {
